@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="js/aes.js"></script>
+		<script type="text/javascript">
+			var data = "你叫MINA？";
+			var key = CryptoJS.enc.Latin1.parse('3454345434543454');
+			var iv = CryptoJS.enc.Latin1.parse('6666666666666666');
+			console.info(key,iv);
+			//加密
+			var encrypted = CryptoJS.AES.encrypt(data, key, {
+				iv: iv,
+				mode: CryptoJS.mode.CBC,
+				padding: CryptoJS.pad.ZeroPadding
+			});
+
+			document.write(encrypted.ciphertext);
+			document.write('<br/>');
+			document.write(encrypted.key);
+			document.write('<br/>');
+			document.write(encrypted.iv);
+			document.write('<br/>');
+			document.write(encrypted);
+			document.write('<br/>');
+
+			//解密
+			var decrypted = CryptoJS.AES.decrypt(encrypted, key, {
+				iv: iv,
+				padding: CryptoJS.pad.ZeroPadding
+			});
+			
+			console.log(decrypted.toString(CryptoJS.enc.Utf8));			
+		</script>
+
+	</head>
+
+	<body>
+	</body>
+
+</html>

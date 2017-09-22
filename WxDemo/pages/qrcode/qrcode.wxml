@@ -1,0 +1,8 @@
+<!--pages/main/index.wxml-->
+<view class="container">
+    <view class="img-box">
+        <canvas canvas-id="mycanvas"/>
+    </view>  
+    <text>{{Second}}秒后刷新二维码</text>
+    <navigator url="../index/index">点我</navigator>
+</view>

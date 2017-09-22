@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  flex-flow: column row;
+  align-items: center;
+  justify-content: center;
+}
+.img-box{
+  width: 550rpx;
+  height: 550rpx;
+}
+.img-box canvas{
+  width: 100%;
+  height: 100%;
+}/* timedtask.wxss */

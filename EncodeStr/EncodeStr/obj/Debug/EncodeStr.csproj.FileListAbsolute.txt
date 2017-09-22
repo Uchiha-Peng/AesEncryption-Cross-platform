@@ -1,0 +1,7 @@
+C:\Users\Azure\source\repos\EncodeStr\EncodeStr\bin\Debug\EncodeStr.exe.config
+C:\Users\Azure\source\repos\EncodeStr\EncodeStr\bin\Debug\EncodeStr.exe
+C:\Users\Azure\source\repos\EncodeStr\EncodeStr\bin\Debug\EncodeStr.pdb
+C:\Users\Azure\source\repos\EncodeStr\EncodeStr\obj\Debug\EncodeStr.csproj.CoreCompileInputs.cache
+C:\Users\Azure\source\repos\EncodeStr\EncodeStr\obj\Debug\EncodeStr.exe
+C:\Users\Azure\source\repos\EncodeStr\EncodeStr\obj\Debug\EncodeStr.pdb
+C:\Users\Azure\source\repos\EncodeStr\EncodeStr\obj\Debug\EncodeStr.csprojResolveAssemblyReference.cache

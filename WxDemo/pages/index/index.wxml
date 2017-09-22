@@ -1,0 +1,7 @@
+<!--pages/main/index.wxml-->
+<view class="container">
+    <view class="img-box">
+        <canvas canvas-id="mycanvas"/>
+    </view>
+    <navigator url="../qrcode/qrcode">点我</navigator>
+</view>
